@@ -11,8 +11,6 @@ public class ContentController {
 
     @RequestMapping(value = "selectAll",method = RequestMethod.GET)
     public String getContentById(){
-        String str="1111111111";
-        System.out.println(str);
-       return  str;
+       return "...";
     }
 }
