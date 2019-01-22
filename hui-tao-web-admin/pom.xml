@@ -22,12 +22,12 @@
         <!--Spring begin-->
         <dependency>
             <groupId>com.duo</groupId>
-            <artifactId>my-shop-commons</artifactId>
+            <artifactId>hui-tao-commons</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
             <groupId>com.duo</groupId>
-            <artifactId>my-shop-domain</artifactId>
+            <artifactId>hui-tao-domain</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>

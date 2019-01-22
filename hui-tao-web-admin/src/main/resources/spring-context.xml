@@ -8,6 +8,7 @@
     <context:component-scan base-package="com.duo.hui.tao">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
+
     <!--&lt;!&ndash; 配置 Bean Validator 定义 &ndash;&gt;
     <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
     <bean id="beanValidator" class="com.duo.hui.tao.commons.dto.BeanValidator">
