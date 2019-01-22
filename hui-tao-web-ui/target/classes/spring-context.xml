@@ -10,10 +10,10 @@
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
-    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
+    <!--<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
     <bean id="beanValidator" class="com.duo.hui.tao.commons.dto.BeanValidator">
         <property name="validator" ref="validator"></property>
-    </bean>
+    </bean>-->
 
 
 
